@@ -5,13 +5,16 @@
 }
 
 .btn {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto 0;
   width: 200px;
-  height: 200px;
-  background: #e6f7fc;
-  /* padding: 100px 0 0 0; */
-  /* margin: 30px 15px 0 0; */
-  box-shadow: 5px 6px 9px 1px rgb(53 53 53 / 50%);
+  height: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin: 30px 15px 0 0;
+  box-shadow: 5px 6px 9px 1px rgb(53 53 53 / 20%);
+  cursor: pointer;
+}
+
+.btn-wrap {
+  display: block;
+  text-align: center;
 }
